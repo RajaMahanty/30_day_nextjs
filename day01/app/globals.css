@@ -1,0 +1,34 @@
+body {
+  background-color: #141414;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.cardBackground {
+  background-color: #1f1f1f;
+}
+
+.linkBackground {
+  background-color: #333;
+}
+
+.neon {
+  color: #c4f82a;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #c4f82a;
+}
