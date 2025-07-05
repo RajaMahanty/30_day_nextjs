@@ -55,7 +55,7 @@ const Card = () => {
 				London, United Kingdom
 			</Typography>
 			<Typography sx={{ fontSize: "1.3125rem", marginBottom: "1.5rem" }}>
-				{'"Font-end developer and avid reader."'}
+				{'"Front-end developer and avid reader."'}
 			</Typography>
 			{links.map((link) => {
 				return <CustomLink link={link} key={link.linkTitle} />;
