@@ -1,3 +1,4 @@
+import styles from "./Card.module.css";
 import { Box } from "@mui/material";
 import Link from "next/link";
 import React from "react";
@@ -15,7 +16,7 @@ const CustomLink = ({ link }: LinkProps) => {
 			<Box
 				component="a"
 				target="_blank"
-				className="link linkBackground"
+				className={`${styles.link} ${styles.linkBackground}`}
 				sx={{
 					padding: "0.75rem 5.625rem",
 					width: "14rem",

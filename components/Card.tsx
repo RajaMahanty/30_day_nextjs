@@ -1,3 +1,4 @@
+import styles from "./Card.module.css";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Image from "next/image";
@@ -20,7 +21,7 @@ const links = [
 const Card = () => {
 	return (
 		<Box
-			className="container"
+			className={`${styles.container} ${styles.card}`}
 			sx={{
 				backgroundColor: "#141414",
 				display: "flex",
@@ -29,7 +30,7 @@ const Card = () => {
 			}}
 		>
 			<Box
-				className="cardBackground"
+				className={styles.cardBackground}
 				sx={{
 					padding: "2rem",
 					borderRadius: "0.75rem",
@@ -53,7 +54,7 @@ const Card = () => {
 					Jessica Randall
 				</Typography>
 				<Typography
-					className="neon"
+					className={styles.neon}
 					variant="h2"
 					sx={{
 						fontSize: "1.3125rem",
